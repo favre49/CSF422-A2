@@ -2,7 +2,7 @@
 #include <omp.h>
 #include <stdlib.h>
 
-int main(int argc, char** argv)
+int main()
 {
     FILE* fptr;
     fptr = fopen("tests/input.txt","r");
