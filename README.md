@@ -13,7 +13,9 @@ A screenshot of the output from each case can be found in the folder. Since the 
 The files can be compiled by running `make`
 
 To run case (a), run the command: `./matrixmul_case_a`
+
 To run case (b), run the command: `./matrixmul_case_b`
+
 To run case (c), run the command: `./matrixmul_case_c`
 
 The output from each case can be found in the folder.
