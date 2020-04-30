@@ -145,6 +145,7 @@ void* parallelThread(void* arg)
             {
                 pthread_mutex_lock(&solved_lock);
                 end = clock();
+                printf("The steps taken are:\n");
                 print_backtrace(new_board);
                 printf("Solved in %f seconds",(float)(end - start)/CLOCKS_PER_SEC);
                 exit(0);
@@ -176,6 +177,7 @@ void* parallelThread(void* arg)
             {
                 pthread_mutex_lock(&solved_lock);
                 end = clock();
+                printf("The steps taken are:\n");
                 print_backtrace(new_board);
                 printf("Solved in %f seconds",(float)(end - start)/CLOCKS_PER_SEC);
                 exit(0);
@@ -207,6 +209,7 @@ void* parallelThread(void* arg)
             {
                 pthread_mutex_lock(&solved_lock);
                 end = clock();
+                printf("The steps taken are:\n");
                 print_backtrace(new_board);
                 printf("Solved in %f seconds",(float)(end - start)/CLOCKS_PER_SEC);
                 exit(0);
@@ -238,6 +241,7 @@ void* parallelThread(void* arg)
             {
                 pthread_mutex_lock(&solved_lock);
                 end = clock();
+                printf("The steps taken are:\n");
                 print_backtrace(new_board);
                 printf("Solved in %f seconds",(float)(end - start)/CLOCKS_PER_SEC);
                 exit(0);
