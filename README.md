@@ -18,4 +18,4 @@ To run case (b), run the command: `./matrixmul_case_b`
 
 To run case (c), run the command: `./matrixmul_case_c`
 
-The output from each case can be found in the folder.
+The screenshots of the output from each case can be found in the folder.
